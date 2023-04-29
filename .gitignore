@@ -7,7 +7,7 @@ Thumbs.db
 
 # Ignore these files to avoid repository bloat
 /out/*
-/res/interface_tweaks_preview.png
+/ref/interface_tweaks_preview.png
 
 # Ignore editor artifacts
 /__pycache__/
