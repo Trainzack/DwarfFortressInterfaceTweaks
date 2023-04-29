@@ -1,0 +1,15 @@
+#Ignore thumbnails created by Windows
+Thumbs.db
+
+# Ignore these because we don't have the rights to redistribute
+/ref/curses8x12.ttf
+/images/*
+
+# Ignore these files to avoid repository bloat
+/out/*
+/res/interface_tweaks_preview.png
+
+# Ignore editor artifacts
+/__pycache__/
+/.idea/
+/venv/

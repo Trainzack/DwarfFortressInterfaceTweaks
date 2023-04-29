@@ -1,0 +1,18 @@
+tile_page_interface_tweaks
+
+[OBJECT:TILE_PAGE]
+
+[TILE_PAGE:INTERFACE_BITS_TWEAKED]
+	[FILE:images/interface_bits_tweaked.png]
+	[TILE_DIM:8:12]
+	[PAGE_DIM_PIXELS:512:732]
+	
+[TILE_PAGE:SQUAD_DISBAND]
+	[FILE:images/squad_disband.png]
+	[TILE_DIM:8:12]
+	[PAGE_DIM_PIXELS:32:36]
+	
+[TILE_PAGE:BUILDING_ICONS_TWEAKED]
+	[FILE:images/building_icons_tweaked.png]
+	[TILE_DIM:32:32]
+	[PAGE_DIM_PIXELS:256:512]
