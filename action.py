@@ -1,4 +1,4 @@
-from sprite_sheet import building, main
+from sprite_sheet import building, main, arena
 
 
 class Action:
@@ -1096,4 +1096,64 @@ def get_actions():
             tag='D_STOCKS',
             ui_name='Open Stocks Screen',
         ),
+        Action(
+            tag='ARENA_CREATE_CREATURE',
+            ui_name='Arena Create Creature',
+            sprite_sheet=arena,
+            location=(0, 0)
+        ),
+        Action(
+            tag='ARENA_FLUIDS',
+            ui_name='Arena Add or Remove Fluids',
+            sprite_sheet=arena,
+            location=(1, 0)
+        ),
+        Action(
+            tag='ARENA_FLUIDS_WATER',
+            ui_name='Arena Add Water',
+            sprite_sheet=arena,
+            location=(2, 0),
+            location_active=(3, 0),
+        ),
+        Action(
+            tag='ARENA_FLUIDS_MAGMA',
+            ui_name='Arena Add Magma',
+            sprite_sheet=arena,
+            location=(0, 1),
+            location_active=(1, 1),
+        ),
+        Action(
+            tag='ARENA_FLUIDS_SNOW',
+            ui_name='Arena Add Snow',
+            sprite_sheet=arena,
+            location=(0, 2),
+            location_active=(1, 2),
+        ),
+        Action(
+            tag='ARENA_FLUIDS_MUD',
+            ui_name='Arena Add Mud',
+            sprite_sheet=arena,
+            location=(2, 2),
+            location_active=(3, 2),
+        ),
+        Action(
+            tag='ARENA_FLUIDS_REMOVE',
+            ui_name='Arena Remove Fluids',
+            sprite_sheet=arena,
+            location=(2, 1),
+            location_active=(3, 1),
+        ),
+        Action(
+            tag='ARENA_CREATE_TREE',
+            ui_name='Arena Create Tree',
+            sprite_sheet=arena,
+            location=(1, 3),
+        ),
+        Action(
+            tag='ARENA_WEATHER',
+            ui_name='Arena Set Weather',
+            sprite_sheet=arena,
+            location=(0, 3),
+        ),
+
     ]

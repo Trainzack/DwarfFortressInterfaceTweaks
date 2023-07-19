@@ -22,6 +22,8 @@ def main():
             hotkey_path='ref/interface_default.txt',
             steam_id=2899720701,
             image_path='ref/interface_tweaks_preview.png',
+            description='Adds visible hotkeys to many actions that have hotkeys, a squad disband button that isn\'t '
+                        'confusing, and other minor adjustments.',
         ),
         Mod(
             name='Interface Tweaks (Without Hotkey Hints)',

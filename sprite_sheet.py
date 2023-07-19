@@ -95,9 +95,12 @@ main = SpriteSheet(
 )
 building = SpriteSheet('BUILDING_ICONS_TWEAKED', 'images/building_icons_tweaked.png', (32, 32))
 squad = SpriteSheet('SQUAD_DISBAND', 'images/squad_disband.png', (8, 12))
+arena = SpriteSheet('INTERFACE_BITS_ARENA_TWEAKED', 'images/interface_bits_arena_tweaked.png',
+                    (8, 12), our_tile_size=(32, 36), start_pos=(0,4))
 
 sheets = [
     main,
     squad,
     building,
+    arena,
 ]
