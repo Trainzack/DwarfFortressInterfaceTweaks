@@ -18,6 +18,6 @@ tile_page_interface_tweaks
 	[PAGE_DIM_PIXELS:256:512]
 
 [TILE_PAGE:INTERFACE_BITS_ARENA_TWEAKED]
-	[FILE:images/INTERFACE_BITS_ARENA_TWEAKED.png]
+	[FILE:images/interface_bits_arena_tweaked.png]
 	[TILE_DIM:8:12]
 	[PAGE_DIM_PIXELS:128:144]

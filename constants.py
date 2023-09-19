@@ -6,7 +6,7 @@ PATH_DF_INSTALLATION = "C:/Program Files (x86)/Steam/steamapps/common/Dwarf Fort
 MOD_NAME = "Ergonomic Hotkeys"
 
 
-VERSION = (1, 4)
+VERSION = (1, 5)
 
 STEAM_TAGS = [
     "mod",
