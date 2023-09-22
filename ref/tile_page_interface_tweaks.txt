@@ -21,3 +21,8 @@ tile_page_interface_tweaks
 	[FILE:images/interface_bits_arena_tweaked.png]
 	[TILE_DIM:8:12]
 	[PAGE_DIM_PIXELS:128:144]
+
+[TILE_PAGE:INTERFACE_BITS_ANNOUNCEMENTS_TWEAKED]
+	[FILE:images/interface_bits_announcements_tweaked.png]
+	[TILE_DIM:8:12]
+	[PAGE_DIM_PIXELS:128:36]

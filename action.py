@@ -1,4 +1,4 @@
-from sprite_sheet import building, main, arena
+from sprite_sheet import building, main, arena, announcements
 
 
 class Action:
@@ -1097,10 +1097,16 @@ def get_actions():
             ui_name='Open Stocks Screen',
         ),
         Action(
-            tag='ARENA_CREATE_CREATURE',
-            ui_name='Arena Create Creature',
+            tag='ARENA_WEATHER',
+            ui_name='Arena Set Weather',
             sprite_sheet=arena,
-            location=(0, 0)
+            location=(0, 3),
+        ),
+        Action(
+            tag='D_ANNOUNCE',
+            ui_name='Open Announcements Screen',
+            sprite_sheet=announcements,
+            location=(3, 0)
         ),
         Action(
             tag='ARENA_FLUIDS',

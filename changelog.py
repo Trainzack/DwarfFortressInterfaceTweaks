@@ -1,7 +1,17 @@
 import constants
 changelog = {
+    (1, 6): (
+        "2023-09-19",
+        "Notification Update",
+        [
+            "DF 0.50.10"
+        ],
+        [
+            "Added notification screen button."
+        ]
+    ),
     (1, 5): (
-        "2022-12-13",
+        "2023-07",
         "Linux Compatibility Fix",
         [
             "DF 0.50.09"
@@ -11,7 +21,7 @@ changelog = {
         ]
     ),
     (1, 4): (
-        "2022-12-13",
+        "2023-07-18",
         "Arena Update",
         [
             "DF 0.50.09"
